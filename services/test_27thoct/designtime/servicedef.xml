@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="test_27thoct" type="DataService" springFile="test_27thoct.spring.xml">
+    <dataobjects>
+        <dataobject javaType="com.test_27thoct_mobile.test_27thoct.Table1">
+            <element name="id" typeRef="java.lang.Integer" isList="false" allowNull="false"/>
+            <element name="name" typeRef="java.lang.String" isList="false" allowNull="true"/>
+        </dataobject>
+    </dataobjects>
+</service>
